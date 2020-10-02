@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat';
+    font-size: 32px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding: 0;
+    padding-bottom: 4.5em;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.bnt-download {
+    margin: 5% 3% 0% 5% ;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 10%;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.features-col {
+    text-align: center;
+}
+
+.features-icons {
+    color: #ef8172;
+    margin-bottom: 50px;
+}
+
+.features-icons:hover {
+    color: #ff4c68;
+}
+
+.testimonials-img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.press-logo {
+    width: 15%;    
+    margin: 20px 20px 50px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.footer-icon {
+    margin: 5 0px 10px;
+}
+
+#title, #testimonials, #press, #cta {
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+
+#features {
+    padding: 15%;
+    background-color: #ffffff;
+    position: relative;
+    /* z-index: 1; */
+}
+
+#testimonials {
+    text-align: center;
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+#cta {
+    padding: 10%;
+    text-align: center;
+}
+
+#footer {
+    padding: 10%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) 
+{
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
